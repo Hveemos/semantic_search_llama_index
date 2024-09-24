@@ -2,7 +2,6 @@ llama-index
 llama_index.embeddings.huggingface
 ipykernel
 sentence-transformers
-pymupdf
 pandas
 pathlib
 openpyxl
