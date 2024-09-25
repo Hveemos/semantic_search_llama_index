@@ -15,7 +15,7 @@ from llama_index.core import StorageContext, load_index_from_storage
 # Constants
 #LS = 'Stockholm'
 CUTOFF = 0.6
-INDEX_FOLDER = Path("bp_index")
+INDEX_FOLDER = Path("data","index")
 MODEL_NAME = 'KBLab/sentence-bert-swedish-cased'
 DATA_FOLDER = Path("data")
 OUT_FOLDER = Path("annotated")

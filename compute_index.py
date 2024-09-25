@@ -11,7 +11,7 @@ from llama_index.readers.file import PyMuPDFReader
 data_folder=Path('data')
 
 out_folder=Path("annoterat")
-index_folder=Path("bp_index")
+index_folder=Path("data","index")
 filename=Path('budgetpropositionen-for-2025-hela-dokumentet-prop.-2024251 19.38.11.pdf')
 loader = PyMuPDFReader()
 docs = loader.load(file_path=data_folder / filename)
